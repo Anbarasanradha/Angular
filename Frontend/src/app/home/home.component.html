@@ -1,0 +1,7 @@
+<div class="card" *ngFor="let event of specialEvents">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{event.name}}</li>
+      <li class="list-group-item">{{event.description}}</li>
+      <li class="list-group-item">{{event.date | date:'shortDate'}}</li>
+    </ul>
+  </div>
